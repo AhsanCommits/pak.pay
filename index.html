@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Virtual Banking Made Easy - PakPay</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <!-- Style Sheet -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- 
+        ===========================
+          Header Starts
+        ==========================
+       -->
+  <header class="vh-100">
+    <!-- 
+        ===========================
+          Navbar Starts
+        ==========================
+       -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <a class="navbar-brand" href="index.html">PakPay</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          
+          <button class="btn my-2 my-sm-0 myButtonStyle mr-lg-2" type="submit">
+            <a href="#login" style="text-decoration: none;">Sign in</a>
+          </button>
+        </form>
+      </div>
+    </nav>
+    <!-- 
+        ===========================
+          Navbar Ends
+        ==========================
+       -->
+    <div class="mid">
+      <video autoplay muted loop>
+        <source class="embed-responsive" src="video.mp4" type="video/mp4" />
+      </video>
+      <div class="hero text-center">
+        <h2 class="text-white display-4 font-weight-bold">
+          Virtual Banking Made Easy
+        </h2>
+        <p class="text-white display-4 font-weight-bold">
+          We make banking accessible for all Pakistanis. Say goodbye to
+          physical banks
+        </p>
+        <a class="btn">Get Started</a>
+      </div>
+    </div>
+  </header>
+  <!-- 
+        ===========================
+         Header Ends
+        ==========================
+       -->
+
+  <!-- 
+        ================================
+          Premium Bank's Section Starts
+        ================================
+       -->
+  <section id="premium" class="mt-1 p-lg-5 vh-100" style="background: #13150f">
+    <div class="container d-flex
+    justify-content-center
+    align-items-center">
+      <div class="row text-light premium_charge">
+        <div class="
+              col-lg-5 col-md-5 col-sm-12
+              d-flex
+              flex-column
+              justify-content-center
+              align-items-start
+              p-5 p-sm-1
+              pt-sm-5">
+          <h3 style="color: #ffb300">Premium Bank</h3>
+          <h1>Unlimited Transactions with 0 Costs</h1>
+          <p class="lead">We charge no premiums over your transactions</p>
+          <a class="btn w-lg-25 w-md-25 w-sm-50">Learn More</a>
+        </div>
+        <div class="
+              col-lg-7 col-md-7 col-sm-12
+              d-flex
+              justify-content-center
+              align-items-center
+              p-lg-5 p-sm-1
+              pt-sm-5
+            ">
+          <img src="1.svg" class="img-fluid w-100 text-danger img" alt="..." />
+          <div class=""></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 
+        ==============================
+          Premium Bank's Section Ends
+        ==============================
+       -->
+
+  <!-- 
+        ==============================
+          Login Section Starts
+        ==============================
+       -->
+  <section id="login" class="mt-1 p-lg-5 vh-100" style="overflow: hidden;">
+    <div class="container">
+      <div class="row premium_charge">
+        <div class="
+              col-lg-6 col-md-6 col-sm-12
+              d-flex
+              justify-content-center
+              align-items-center
+              p-lg-5 p-sm-1
+              pt-sm-5
+            ">
+          <img src="2.svg" class="img-fluid w-100 text-danger img" alt="..." />
+        </div>
+        <div class="
+              col-lg-6 col-md-6 col-sm-12
+              d-flex
+              flex-column
+              justify-content-start
+              align-items-start
+              p-5 p-sm-1
+              pt-sm-5
+              w-lg-50 w-sm-100
+              m-lg-auto
+            ">
+          <h3 style="color: #ffb300">Unlimited Access</h3>
+          <h1>Login from anywhere</h1>
+          <p class="lead">This is a cool description about the fees.</p>
+          <a class="btn w-lg-25 w-md-25 w-sm-50" style="border: 2px solid #ffb300" href="https://mailchi.mp/0f7038a13233/ahsan">Login</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 
+        ==============================
+          Login Section Ends
+        ==============================
+       -->
+
+  <!-- 
+        ==============================
+          Services' Section Starts
+        ==============================
+       -->
+  <section id="services" style="background: #13150f">
+    <div class="container max-vh-100">
+      <div class="row">
+        <div class="col">
+          <h1 class="text-white text-center w-100 display-4 p-5">Our Services</h1>
+        </div>
+      </div>
+      <div class="row text-center d-flex justify-content-center align-items-center"
+        style="overflow: hidden; flex-wrap: wrap;">
+        <div class="col-lg-3 col-md-10 col-sm-10 d-flex justify-content-center align-items-center">
+          <div class="card mb-3 rounded-2" style="width: 22rem">
+            <img src="2.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="card-text text-center">
+                Virtual Address
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-10 col-sm-10 d-flex justify-content-center align-items-center">
+          <div class="card mb-3 rounded-2" style="width: 22rem">
+            <img src="3.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="card-text text-center">
+                Reduce Expenses
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-10 col-sm-10 d-flex justify-content-center align-items-center">
+          <div class="card mb-3 rounded-3 mt-2" style="width: 22rem">
+            <img src="4.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="card-text text-center">
+                Premium Benefits
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- 
+        ==============================
+          Services Section Ends
+        ==============================
+       -->
+
+  <!-- 
+        ==============================
+          Scripts Tags Section
+        ==============================
+       -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
